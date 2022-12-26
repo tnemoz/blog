@@ -120,7 +120,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tnemoz"
     - label: "Quantum Computing SE"
-      src: "assets/images/qcse_logo.png"
+      src: "assets/images/qcse_logo_gray.png"
       url: "https://quantumcomputing.stackexchange.com/users/10454/tristan-nemoz"
 
 # Site Footer

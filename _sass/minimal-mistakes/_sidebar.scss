@@ -21,6 +21,16 @@
   display: none;
   visibility: hidden;
 
+  .sidebar-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    text-align: left;
+  }
+
   @include breakpoint($large) {
     float: left;
     width: 18rem;
@@ -56,6 +66,8 @@
 
   p {
     color: rgba(255,255,255,.5);
+    font-size: $type-size-5;
+    font-weight: 300;
   }
   li {
     font-family: $sans-serif;
@@ -173,14 +185,15 @@
   }
 }
 .sidebar .author__name {
-  font-size: $type-size-1;
+  font-size: $type-size-2;
   font-family: "Abril Fatface", serif;
   color: #fff;
 }
 
 .sidebar .author__bio {
   // margin: 0;
-  padding: 10px;
+  // padding: 10px;
+  line-height: 1.5;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -200,6 +213,11 @@
   z-index: 20;
   cursor: pointer;
   text-align: left;
+
+  li {
+    line-height: 1.75;
+    font-size: $type-size-5;
+}
 
   li:last-child {
     a {
