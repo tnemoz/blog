@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Tristan Nemoz"
   avatar           : "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a first year PhD Student in the [IQA Group](https://iqa.telecom-paris.fr/) supervised by Romain Alléaume. My field of research is Quantum Cryptography, though I also am interested in Quantum Computation and Quantum Machine Learning."
+  bio              : "First year PhD Student in the [QURIOSITY Group](https://iqa.telecom-paris.fr/). Interested in Quantum Cryptography, Computation and Machine Learning."
   location         :
   email            :
   links:
