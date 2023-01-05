@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Tristan Nemoz"
   avatar           : "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "First year PhD Student in the [QURIOSITY Group](https://iqa.telecom-paris.fr/). Interested in Quantum Cryptography, Computation and Machine Learning."
+  bio              : "First year PhD Student in the <a href=\"https://iqa.telecom-paris.fr/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">QURIOSITY Group</a>. Interested in Quantum Cryptography, Computation and Machine Learning."
   location         :
   email            :
   links:
@@ -119,9 +119,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tnemoz"
-    - label: "Quantum Computing SE"
-      src: "assets/images/qcse_logo_gray.png"
-      url: "https://quantumcomputing.stackexchange.com/users/10454/tristan-nemoz"
+    - label: "Google Scholar"
+      icon: "ai ai-fw ai-google-scholar-square"
+      url: "https://scholar.google.com/citations?user=tpkuHS4AAAAJ&hl=fr"
 
 # Site Footer
 footer:
