@@ -31,8 +31,8 @@
     left: 1rem;
 
     @include breakpoint($medium) {
-      position: absolute;
       text-align: left;
+      align-self: flex-end;
     }
   }
 
@@ -40,6 +40,9 @@
     float: left;
     width: 18rem;
     height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
 
     &.sticky {
       position: -webkit-sticky;
